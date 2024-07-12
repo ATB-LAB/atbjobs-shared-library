@@ -14,3 +14,15 @@ Add this line to your composer.json file
 }
 ```
 - run "composer update"
+
+- make sure package autoload configured at your project composer.json file. Example provided below:
+```
+    "autoload": {
+        "psr-4": {
+            "alam/atbjobs-shared-library\\": "src/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+```
