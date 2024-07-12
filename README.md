@@ -1,5 +1,6 @@
 - Please follow instruction to add this repository at your laravel project.
 Add this line to your composer.json file
+```
 {
     "repositories": [
         {
@@ -10,5 +11,6 @@ Add this line to your composer.json file
     "require": {
         "alam/atbjobs-shared-library": "dev-master"
     }
-
+}
+```
 - run "composer update"
