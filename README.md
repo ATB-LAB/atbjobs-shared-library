@@ -33,3 +33,11 @@ use Alam\AtbjobsSharedLibrary\Models\Department;
 // Example usage in a controller
 $departments = Department::get();
 ```
+- To use service provider you need to register at your composer.json. Example provided below:
+```
+'providers' => [
+    // Other service providers...
+
+    alam\atbjobs-shared-library\Providers\YourServiceProvider::class,
+],
+```
