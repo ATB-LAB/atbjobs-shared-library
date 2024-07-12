@@ -1,0 +1,17 @@
+{
+    "name": "alam/atbjobs-shared-library",
+    "description": "This shared library will use to share commonly used models and services",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Alam\\AtbjobsSharedLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Khorshed Alam",
+            "email": "andgatetech@gmail.com"
+        }
+    ],
+    "require": {}
+}
