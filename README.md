@@ -26,3 +26,10 @@ Add this line to your composer.json file
         ]
     },
 ```
+- How to use models from this package at your project, example provided below:
+```
+use Alam\AtbjobsSharedLibrary\Models\Department;
+
+// Example usage in a controller
+$departments = Department::get();
+```
